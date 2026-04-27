@@ -1,0 +1,16 @@
+.news-card {
+    height: 100%;
+}
+
+.news-card .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.news-card .card-text {
+    flex-grow: 1;
+}
+
+.news-card .btn {
+    margin-top: auto;
+}

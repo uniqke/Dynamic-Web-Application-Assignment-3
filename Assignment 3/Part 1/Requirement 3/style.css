@@ -1,0 +1,20 @@
+.video-card {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    height: 100%;
+}
+
+.video-card:hover {
+    transform: translateY(-4px);
+}
+
+.video-thumbnail {
+    width: 100%;
+    border-top-left-radius: 0.375rem;
+    border-top-right-radius: 0.375rem;
+    object-fit: cover;
+}
+
+.video-card .card-body {
+    min-height: 100px;
+}
