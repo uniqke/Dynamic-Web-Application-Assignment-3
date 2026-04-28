@@ -1,4 +1,4 @@
-export const MAPQUEST_API_KEY = "IJwxYwuu2wljoAjZWuJsAS65ldnHdMpZ";
+import { MAPQUEST_API_KEY } from '../../config.js';
 
 L.mapquest.key = MAPQUEST_API_KEY;
 

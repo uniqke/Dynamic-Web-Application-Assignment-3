@@ -1,4 +1,4 @@
-export const NYT_API_KEY = "gbH4xwXTNGm3W5znDHrIVnnoG8piASofEGpAGhCEqdcunncn";
+import { NYT_API_KEY } from '../../config.js';
 
 
 const searchInput = document.getElementById("searchInput");

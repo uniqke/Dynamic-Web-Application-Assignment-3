@@ -1,4 +1,4 @@
-export const YOUTUBE_API_KEY = "AIzaSyApp4rnFEL56MUmLfq0v6KNQguHKRQkmzA";
+import { YOUTUBE_API_KEY } from '../../config.js';
 
 const videoSearchInput = document.getElementById("videoSearchInput");
 const videoSearchBtn = document.getElementById("videoSearchBtn");
